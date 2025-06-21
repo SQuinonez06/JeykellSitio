@@ -1,0 +1,7 @@
+title: Mi Sitio con Jekyll
+description: Este es mi sitio con Jekyll en GitHub Pages
+author: SQuinonez06
+collections:
+  articulos:
+    output: true
+    
