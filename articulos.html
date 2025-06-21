@@ -1,0 +1,12 @@
+---
+layout: default
+title: Artículos
+---
+<h1>Lista de Artículos</h1>
+<ul>
+  {% for articulo in site.articulos %}
+    <li>
+      <a href="{{ articulo.url }}">{{ articulo.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
